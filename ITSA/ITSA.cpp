@@ -1,13 +1,13 @@
 ﻿#include <iostream>
 using namespace std;
-int gcd(int m, int n) {
-    int t = 1;
-    while (t != 0) {
-        t = m % n;
-        m = n;
-        n = t;
+int gcd(int x, int y) {
+    int num = 1;
+    while (num != 0) {
+        num = x % y;
+        x = y;
+        y = num;
     }
-    return m;
+    return x;
 }
 int main() {
     int x, y;
