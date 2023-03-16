@@ -21,7 +21,7 @@ f(k) 的計算結果。
 **範例：**
 
 | Sample Input | Sample Output |
-|
+|-|-|
 |10|60|
 |12|94|
 
