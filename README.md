@@ -13,15 +13,16 @@
 
 **範例 ：**
 
-<tr> 
-    <p><strong>Sample Input: </strong></p> 
-    <p><strong>Sample Output: </strong></p> 
-</tr> 
-<tr> 
-    <p>3<br>- 1 2 2 -3<br>+ 2 1 1 2<br>* 1 1 1 1 </p> 
-    <p>-1 5<br>3 3<br>0 2 </p> 
-</tr>
-
+<table>
+    <tr>
+      <th>Sample Input: </th>
+      <th>Sample Output: </th>
+    </tr>
+    <tr>
+      <td align="center">3<br>- 1 2 2 -3<br>+ 2 1 1 2<br>* 1 1 1 1 </td>
+      <td align="center">-1 5<br>3 3<br>0 2 </td>
+    </tr>
+</table>
 
 ### 程式碼 & 說明
 ---
@@ -56,6 +57,28 @@ int main() {
 }
 ```
 
+`#include <iostream>` 導入 iostream
+`int main(){}` 主程式區塊
+
+使用`cin`將值輸入至變數 `num` 判斷執行次數
+
+使用`cin`將運算元輸入至變數 `symbol` 用 `switch` 判斷運算方式
+
+> 加法
+>
+> `real[0] + real[1]` `img[0] + img[1]`
+
+> 減法
+>
+> `real[0] - real[1]` `img[0] - img[1]`
+
+> 乘法
+>
+> `real[0] * real[1] - img[0] * img[1]` `img[0] * real[1] + real[0] * img[1]`
+
+> 除法
+>
+> `(real[0] * real[1] + img[0] * img[1]) / (real[1] * real[1] + img[1] * img[1])` `img[0] * real[1] - real[0] * img[1] / (real[1] * real[1] + img[1] * img[1])`
 
 
 ### 結果
