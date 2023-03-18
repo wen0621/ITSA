@@ -30,12 +30,37 @@
 ### 程式碼 & 說明
 ---
 ```cpp
+#include <iostream>
+using namespace std;
 
+int main() {
+	string input;
+	int len;
+	cin >> input;
+	len = input.length();
+	for (int i = 0; i < len / 2; i++) {
+		if (input[i] != input[len -1 - i]) {
+			cout << "NO" << endl;
+			return 0;
+		}
+	}
+	cout << "YES" << endl;
+	return 0;
+}
 ```
 
+`#include <iostream>` 導入 iostream
 
+`int main(){}` 主程式區塊
+
+宣告`input`字串 存放輸入值，
+`len`整數 存放字串長度
+
+使用`for`迴圈逐次檢查是否為迴文，若為迴文`cout`列印出NO，否則列印YES
 
 ### 結果
 ---
-![結果]()
-![ITSA]()
+![結果](https://media.discordapp.net/attachments/914196675961188443/1086771532816191548/image.png)
+![結果](https://media.discordapp.net/attachments/914196675961188443/1086771793487986789/image.png)
+![結果](https://media.discordapp.net/attachments/914196675961188443/1086772032110334082/image.png)
+![ITSA](https://cdn.discordapp.com/attachments/914196675961188443/1086771088811368598/image.png)
