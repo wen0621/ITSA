@@ -141,7 +141,6 @@ int main() {
 
 ### 結果
 ---
-![結果](https://media.discordapp.net/attachments/914196675961188443/1086771532816191548/image.png)
-![結果](https://media.discordapp.net/attachments/914196675961188443/1086771793487986789/image.png)
-![結果](https://media.discordapp.net/attachments/914196675961188443/1086772032110334082/image.png)
-![ITSA](https://cdn.discordapp.com/attachments/914196675961188443/1086771088811368598/image.png)
+![結果](https://cdn.discordapp.com/attachments/914196675961188443/1087291959988731934/image.png)
+![結果](https://cdn.discordapp.com/attachments/914196675961188443/1087292038401249400/image.png)
+![ITSA](https://cdn.discordapp.com/attachments/914196675961188443/1087292735955927111/image.png)
