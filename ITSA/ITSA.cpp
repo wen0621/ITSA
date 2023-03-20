@@ -82,10 +82,10 @@ int main() {
 	}
 	for (int i = 0; i < 5; i++) {
 		for (int j = 0; j < 4; j++) {
-			for (int k = 0; k < 5; k++) {
-			cout << digit[in[j]][i][k];
-			}
-			cout << ' ';
+			for (int k = 0; k < 5; k++)
+				cout << digit[in[j]][i][k];
+			if (j < 3)
+				cout << ' ';
 		}
 		cout << endl;
 	}
