@@ -75,4 +75,19 @@ int main() {
 			{'*', '*', '*', '*', '*'}
 		}
 	};
+	char in[5] = "\0";
+	cin >> in;
+	for (int i = 0; i < 4; i++) {
+		in[i] -= 48;
+	}
+	for (int i = 0; i < 5; i++) {
+		for (int j = 0; j < 4; j++) {
+			for (int k = 0; k < 5; k++) {
+			cout << digit[in[j]][i][k];
+			}
+			cout << ' ';
+		}
+		cout << endl;
+	}
+	return 0;
 }
