@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     int row, column;
     cin >> column >> row;
-    string data[10][10];
+    int data[10][10];
     for (int i = 0; i < column; i++) {
         for (int j = 0; j < row; j++) {
             cin >> data[i][j];
