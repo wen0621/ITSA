@@ -25,7 +25,7 @@
     </tr>
     <tr>
       <td align="center">0789</td>
-      <td align="center"><img alt="0789", src="https://cdn.discordapp.com/attachments/914196675961188443/1087287876691177542/C_ST53-2.png"</td>
+      <td align="center"><img alt="0789", src="https://cdn.discordapp.com/attachments/914196675961188443/1087287876691177542/C_ST53-2.png"></td>
     </tr>
 </table>
 
